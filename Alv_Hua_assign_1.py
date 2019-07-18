@@ -1,8 +1,11 @@
 #import flask, urllib.request, json, andssl
 #import if needed, if not needed then waste
+#Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy
 from flask import Flask
 import urllib.request
+#JSON (JavaScript Object Notation)
 import json
+#Transport Layer Security
 import ssl
 
 #ssl
