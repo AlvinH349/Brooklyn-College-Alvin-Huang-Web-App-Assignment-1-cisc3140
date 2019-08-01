@@ -1,7 +1,12 @@
 language: python
 python:
-  - "3.7"
+- '3.7'
 install:
 - pip3 install -r requirements.txt
 script:
-  - python -m unittest discover
+- python -m unittest discover
+deploy:
+  - provider: heroku
+  api_key:
+    secure: fNzkL/F1axbbjiV4lfaAMegMNIQRwHWZLI1NNqZMlkjlZwV+hvtXrxLTmXmZymp/7damrCX7+l/uFGJbk/m8ldGo8s83HuM8JDV5koeeRxJ/JUfFzdLyw1ugP2/tS6GZlkizwty2GuDErdTUiR719Q/CjHsoA877aS8mMUnKSC82oC8jY4FRnYh9QGQZ2MBKVKXseH83wxNx6USzNezAXChXpYdVQvdvutziqMFjBiBVGTqUPOzIAyJHY/wN/b+Gb3AX2Fxlp/88MI4zdV92uQkZ4luWCuLHVfjKAnpoKqp5lLKbVjVojyMRxf8U96cQhoiAVQorbWLGdB1X21s/xhN6gvXb5AFI81mOf/3BsXDa2j5AjgZMXA0r4TZ7UvmueA0yPrBU09vAuhCBk+/XDXGDC15Ed4p9BIQDnvfbkErZHHNaunmWCNXmQO/3i8G5bx0pJIXXBoiLowa+ztyHIUUjmZLaItrQuIEzUYh89lAJSsVvDbvBpdgQkDEmhM1pkuZb17LjjMpsQ8RY7YE5JeBvIit5VXEGH2icm5fxwjzrM4KOPfnVNVbP0C2TIsjiioeH+nEJjNRx4CbtlfSY3NG4rqCXuq9WkvhBfaL46XOdTHKZWdfqQoaLF2ZrJJlTs7+rMnO+ZoOepJD+Nd8zpeBvtnnT9a+R/trY+y+7q+0=
+    app: hw3-webapp
