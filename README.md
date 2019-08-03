@@ -1,4 +1,4 @@
-# Brooklyn-College-Alvin-Huang-Web-App-Assignment-1-cisc3140
+# Brooklyn-College-Alvin-Huang-Web-App-Assignment-3-cisc3140
 a barebones api client with NASA’s api. connect with the API and display information from that API
 
 Travis us used - a .travis.yml file for the python app is added in assignment 1 to utilize Travis CI in conjunction with the github repo
