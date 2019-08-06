@@ -8,3 +8,7 @@ I was able to deploy my app to a server like heroku
 I used this source as reference:
 https://mdyzma.github.io/2017/05/20/flask-and-travis-ci/?fbclid=IwAR2oskg4sWRiNQ5S1ir6Mm75k-B30mY9Ov2lcMvAvd2fmxmVgGB2QD4tJRw
 
+Complication: As travis build was successful, the deployment of the app didn't go well
+Soultion: restart heroku
+
+Alternative solution: check travis file, requirements text, or the python files
